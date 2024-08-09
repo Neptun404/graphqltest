@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Aric",
+        "class": "Hero",
+        "hp": 150,
+        "mp": 100
+    },
+    {
+        "name": "Lina",
+        "class": "Cleric",
+        "hp": 90,
+        "mp": 120
+    },
+    {
+        "name": "Thorne",
+        "class": "Ranger",
+        "hp": 110,
+        "mp": 80
+    },
+    {
+        "name": "Boros",
+        "class": "Warrior",
+        "hp": 200,
+        "mp": 50
+    }
+]

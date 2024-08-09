@@ -1,0 +1,27 @@
+extend type Query {
+  character(name: String): Character
+  party: [Character]!
+}
+
+extend type Mutation {
+  # Mutataion's parameter must take an input type
+  takeDamage(character: CharacterInput!, amount: Int!) : Int
+}
+
+input CharacterInput {
+  name: String
+}
+
+type Character {
+  name: String!
+  class: Class!
+  hp: Int!
+  mp: Int!
+}
+
+enum Class {
+  Hero
+  Cleric
+  Ranger
+  Warrior
+}
